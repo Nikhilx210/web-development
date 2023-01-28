@@ -1,3 +1,17 @@
-h2{
-    color: blue;
+nav a{
+    text-decoration: none;
+    color:aqua;
+    text-align:center ;
+    padding: 20px;
+    float: left;
+}
+nav{
+    background-color: blue;
+    overflow: hidden;
+}
+nav a:hover{
+    color: tomato;
+}
+nav a:visited{
+    color: black;
 }
