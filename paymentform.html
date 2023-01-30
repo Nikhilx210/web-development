@@ -5,36 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Payment Form</title>
+    <link rel="stylesheet" href="st.css">
 </head>
 <body>
-    <form>
-        <h1>Payment Form</h1>
-        <h2>Contact info</h2>
-        <p>name : <input type="text" name="name" required ></p>
-        <Fieldset>    
-            <legend>Gender</legend>
+    <div class="container">
+        <form>
+            <h1 id="main_h1">Payment Form</h1>
+            <h2>Contact info</h2>
+            <p>name : <input type="text" name="name" required ></p>
+            <Fieldset>    
+                <legend>Gender</legend>
+                <p>
+                    male <input type="radio" name="gender" id="male">
+                    female <input type="radio" name="gender" id="female">
+                </p>
+            </Fieldset>
+            <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea> </p>
+            <p>Email <input type="email" name="email" id="email"></p>
+            <h2>Payment info</h2>
             <p>
-                male <input type="radio" name="gender" id="male">
-                female <input type="radio" name="gender" id="female">
+                Card:
+                <select name="Card_type" id="Card_type">
+                    <option value="" >--select a card--</option>
+                    <option value="visa">Visa</option>
+                    <option value="rupay">rupay</option>
+                    <option value="master">master</option>
+                </select>
+        
             </p>
-        </Fieldset>
-        <p>Address: <textarea name="address" id="address" cols="30" rows="10"></textarea> </p>
-        <p>Email <input type="email" name="email" id="email"></p>
-        <h2>Payment info</h2>
-        <p>
-            Card:
-            <select name="Card_type" id="Card_type">
-                <option value="" >--select a card--</option>
-                <option value="visa">Visa</option>
-                <option value="rupay">rupay</option>
-                <option value="master">master</option>
-            </select>
-    
-        </p>
-        <p>cvv: <input type="password" name="cvv" id="cvv"></p>
-        <p>Exp_date : <input type="date" name="date" id="date"></p>
-        <p><input type="submit" value="pay now"></p>
-    </form>
+            <p>cvv: <input type="password" name="cvv" id="cvv"></p>
+            <p>Exp_date : <input type="date" name="date" id="date"></p>
+            <p><input type="submit" value="pay now"></p>
+        </form>
+    </div>
+
 
 </body>
 </html>
