@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-color: whitesmoke;
+}
+.contact_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+.info_part{
+    text-align: left;
+    padding: 5px;
+    background-color:white ;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+}
+h2{
+    margin: 20px;
+}
+input{
+    padding: 10px;
+    margin: 20px;
+}
+#sub{
+    width: 87%;
+}
+textarea{
+    padding: 10px;
+    margin: 20px;
+    width: 87%;
+}
+input[type="submit"]{
+    background-color:rgb(10, 62, 231);
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+
+.contact_info{
+    background-color: rgb(10, 62, 231);
+    padding: 25px;
+    color: white;
+    text-align: left;
+    height: 400px;   
+}
+.mini_head{
+    margin: 10px;
+    padding: 10px;
+}
+img{
+    vertical-align:middle;
+}
