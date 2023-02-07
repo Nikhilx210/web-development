@@ -1,0 +1,19 @@
+.flex_container{  
+}
+.flex_row{
+    display: flex;   
+}
+.flex_box{
+    width: 35%;
+    margin: 5px;
+    padding: 5px;
+    background-color: skyblue;    
+    border-radius: 4px;
+}
+.fl_box{
+    width: 35%;
+    margin: 5px;
+    padding: 2px;
+    background-color:blue;
+    border-radius: 4px;
+}
