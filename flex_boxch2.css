@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.c {
+    margin: 10px;
+    border: 1px solid;
+    border-color: black;
+    width: 50%;   
+    box-shadow: 5px 5px 5px #888888;
+
+   
+}
+
+.c img{
+    width: 100%;
+    height: 35%;
+}
+.button{
+    width: 100%;
+    height: 5%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+
+}
+.in_c{
+    margin: 10px;
+}
