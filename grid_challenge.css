@@ -3,7 +3,8 @@
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(6,auto);
-    grid-gap: 5px;
+    column-gap: 0.5%;
+    row-gap: 1%;
 
 }
 .box{
