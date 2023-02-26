@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+*{
+    font-size: large;
+    font-family: 'Orbitron', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 200%;
+}
+input{
+    padding: 1%;
+}
+.Calculator{
+    width: 50%;
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 1fr;
+    row-gap: 2% ;
+    column-gap: 1%;
+    background-color: #1D1B29;
+    padding: 3%;
+    margin: auto;
+    border-radius: 3%;
+    height: 50vh;
+}
+button{
+    background-color: #65268F;
+    color: white;
+    padding: 1%;
+    border-radius: 10%;
+    
+}
+#equal_to , #clear{
+    background-color: #FB0268;
+}
+#input_data{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-radius: 5%;
+}
+button:hover{
+    background-color: #9900ff;
+}
+#equal_to:hover , #clear:hover{
+    background-color: #fb4a94;
+}
+
+
+
+
