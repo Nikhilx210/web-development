@@ -28,5 +28,5 @@ function  Product(price,itemname,discount,itemcode){
     
     
 }
-const mobile = new Product(100,"iphone",20,73296353);
+const mobile = new Product(100,"samsung",20,73296353);
 console.log(mobile.discountprice())
